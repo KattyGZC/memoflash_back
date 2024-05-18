@@ -5,7 +5,7 @@ class Topic(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='topics', verbose_name='User')
     name = models.CharField('Name', max_length=255)
     enable = models.BooleanField('Enable', default=False)
-
+    is_private = models.BooleanField('Is private', default=True)
     class Meta:
         verbose_name = 'Topic'
         verbose_name_plural = 'Topics'
@@ -21,6 +21,9 @@ class Card(models.Model):
     class Meta:
         verbose_name = 'Card'
         verbose_name_plural = 'Cards'
+
+    def __str__(self):
+        return f'{self.id} - {self.topic}'
 
 
 class Item(models.Model):
