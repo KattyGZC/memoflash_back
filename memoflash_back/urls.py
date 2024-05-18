@@ -24,5 +24,5 @@ urlpatterns = [
     path('', greeting, name='greeting'),
     path('admin/', admin.site.urls),
     path('api/users/', include('users.urls')),
-    path('api/cards/', include('memo_cards.urls'))
+    path('api/', include('memo_cards.urls'))
 ]
