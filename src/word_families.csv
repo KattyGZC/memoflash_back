@@ -1,0 +1,451 @@
+Nouns,Adjectives,Verbs,Adverbs
+"ability, disability, inability","able, unable, disabled","enable, disable",ably
+acceptance,"acceptable, unacceptable, accepted",accept,"acceptably,unacceptably"
+accident,accidental,,accidentally
+"accuracy, inaccuracy","accurate, inaccurate",,"accurately, inaccurately"
+"accusation, the accused, accuser",accusing,accuse,accusingly
+"achievement, achiever",achievable,achieve,
+"act, action, inaction, interaction,
+reaction, transaction",acting,act,
+"activity, inactivity","active, inactive, interactive, proactive",activate,actively
+addition,additional,add,additionally
+"admiration, admirer",admirable,admire,admirably
+"advantage, disadvantage","advantageous, disadvantaged",,advantageously
+"advertisement, advertiser, advertising",,advertise,
+"advice, adviser","advisable, inadvisable, advisory",advise,
+"agreement, disagreement",agreeable,"agree, disagree",agreeably
+aim,aimless,aim,aimlessly
+amazement,"amazed, amazing",amaze,amazingly
+anger,angry,anger,angrily
+"announcement, announcer",unannounced,announce,unannounced
+"appearance, disappearance, reappearance",,"appear, disappear, reappear",
+"applicant, application","applicable, applied",apply,
+appreciation,"appreciable, appreciative",appreciate,appreciatively
+"approval, disapproval","approving, disapproving","approve, disapprove",approvingly
+approximation,approximate,approximate,approximately
+argument,"arguable, argumentative",argue,arguably
+arrangement,,"arrange, rearrange",
+"art, artist, artistry",artistic,,artistically
+shame,"ashamed, unashamed, shameful,
+shameless",shame,"shamefully, shamelessly"
+attachment,"attached, unattached, detachable,
+detached","attach, detach",
+"attack, counter-attack, attacker",,"attack, counter-attack",
+attention,"attentive, inattentive",attend,attentively
+"attraction, attractiveness","attractive, unattractive",attract,attractively
+"authority, authorization","authoritarian, authoritative, unauthorized",authorize,
+availability,"available, unavailable",,
+avoidance,"avoidable, unavoidable",avoid,
+awareness,"aware, unaware",,unawares
+"base, the basics, basis","baseless, basic",base,basically
+bearer,"bearable, unbearable",bear,
+"beat, beating","unbeatable, unbeaten",beat,
+"beauty, beautician",beautiful,,beautifully
+"beginner, beginning",,begin,
+"behaviour/US behavior, misbehaviour/US misbehavior",behavioural/US behavioral,"behave, misbehave",
+"belief, disbelief","believable, unbelievable","believe, disbelieve",unbelievably
+"block, blockage","blocked, unblocked","block, unblock",
+"blood, bleeding","bloodless, bloody",bleed,
+"the boil, boiler",boiling,boil,
+"bore, boredom","bored, boring",bore,boringly
+"break, outbreak, breakage","unbreakable, broken, unbroken",break,
+"breath, breather, breathing",breathless,breathe,breathlessly
+"brother, brotherhood",brotherly,,
+"build, builder, building",,"build, rebuild",
+"burn, burner","burning, burnt",burn,
+burial,buried,bury,
+"calculation, calculator","incalculable, calculated, calculating",calculate,
+"calm, calmness",calm,calm,calmly
+capability,"capable, incapable",,capably
+"care, carer","careful, careless, caring, uncaring",care,"carefully, carelessly"
+"celebration, celebrity","celebrated, celebratory",celebrate,
+"centre/US center, centralization,
+decentralization","central, centralized","centre/US center, centralize,
+decentralize",centrally
+"certainty, uncertainty","certain, uncertain",,"certainly, uncertainly"
+"challenge, challenger",challenging,challenge,
+change,"changeable, interchangeable,
+unchanged, changing",change,
+"character, characteristic, characterization","characteristic, uncharacteristic",characterize,characteristically
+"chemical, chemist, chemistry",chemical,,chemically
+"circle, semicircle, circulation",circular,"circle, circulate",
+"cleaner, cleaning, cleanliness","clean, unclean",clean,cleanly
+"clarity, clearance, clearing","clear, unclear",clear,"clear, clearly"
+"close, closure","closed, closing",close,
+closeness,close,,"close, closely"
+"clothes, clothing","clothed, unclothed",clothe,
+"collection, collector","collected, collective",collect,collectively
+"colour/US color, colouring/US coloring","coloured/US colored, discoloured/US discolored, colourful/US colorful,colourless/US colorless",colour/US color,colourfully/US colorfully
+combination,combined,combine,
+"comfort, discomfort","comfortable, uncomfortable, comforting",comfort,comfortably
+commitment,"noncommittal, committed",commit,
+"communication, communicator","communicative, uncommunicative",communicate,
+comparison,"comparable, incomparable,comparative",compare,comparatively
+"competition, competitor","competitive, uncompetitive",compete,competitively
+"completion, incompleteness","complete, incomplete",complete,"completely, incompletely"
+complication,"complicated, uncomplicated",complicate,
+"computer, computing, computerization",,computerize,
+concentration,concentrated,concentrate,
+concern,"concerned, unconcerned",concern,
+conclusion,"concluding, conclusive, inconclusive",conclude,conclusively
+"condition, precondition, conditioner, conditioning","conditional, unconditional",condition,"conditionally,unconditionally"
+confidence,"confident, confidential",confide,"confidently, confidentially"
+confirmation,"confirmed, unconfirmed",confirm,
+confusion,"confused, confusing",confuse,confusingly
+connection,"connected, disconnected,unconnected","connect, disconnect",
+"subconscious, unconscious, consciousness, unconsciousness","conscious, subconscious,  unconscious",,"consciously, unconsciously"
+consequence,"consequent, inconsequential",,consequently
+consideration,"considerable, considerate, inconsiderate, considered","consider, reconsider","considerably,considerately"
+continent,"continental, intercontinental",,
+"continuation, continuity","continual, continued, continuous","continue, discontinue","continually, continuously"
+"contribution, contributor",contributory,contribute,
+"control, controller","controlling, uncontrollable",control,uncontrollably
+"convenience, inconvenience","convenient, inconvenient",inconvenience,conveniently
+,"convinced, convincing, unconvincing",convince,convincingly
+"cook, cooker, cookery, cooking","cooked, uncooked",cook,
+"cool, coolness",cool,cool,coolly
+"correction, correctness","correct, incorrect, corrective",correct,"correctly, incorrectly"
+"count, recount","countable, uncountable, countless","count, recount",
+"cover, coverage, covering","undercover, uncovered","cover, uncover",undercover
+"creation, creativity, creator","creative, uncreative","create, recreate",creatively
+"crime, criminal, criminologist","criminal, incriminating",incriminate,criminally
+"critic, criticism","critical, uncritical",criticize,critically
+"crowd, overcrowding","crowded, overcrowded",crowd,
+cruelty,cruel,,cruelly
+"cry, outcry",crying,cry,
+"culture, subculture","cultural, cultured",,culturally
+cure,"cured, incurable",cure,
+"custom, customer, customs",customary,accustom,customarily
+"cut, cutting",cutting,"cut, undercut",
+"damage, damages","damaging, undamaged",damage,
+danger,"endangered, dangerous",endanger,dangerously
+"dare, daring",daring,dare,daringly
+"dark, darkness","dark, darkened, darkening",darken,darkly
+date,"dated, outdated","date, predate",
+"day, midday",daily,,daily
+"dead, death","dead, deadly, deathly",deaden,"deadly, deathly"
+"deal, dealer, dealings",,deal,
+"deceit, deceiver, deception","deceitful, deceptive",deceive,deceptively
+"decision, indecision","decided, undecided, decisive,
+indecisive",decide,"decidedly, decisively, indecisively"
+"decoration, decorator",decorative,decorate,decoratively
+"deep, depth","deep, deepening",deepen,deeply
+"defeat, defeatism, defeatist","undefeated, defeatist",defeat,
+"defence/US defense,defendant, defender","defenceless/US defenseless,indefensible, defensive",defend,defensively
+definition,"definite, indefinite",define,"definitely, indefinitely"
+"demand, demands","demanding, undemanding",demand,
+"democracy, democrat","democratic, undemocratic",,democratically
+"demonstration, demonstrator","demonstrable, demonstrative",demonstrate,demonstrably
+denial,undeniable,deny,undeniably
+"dependant, dependence,independence, dependency","dependable, dependent,independent",depend,"dependably, independently"
+description,"describable, indescribable, nondescript, descriptive",describe,descriptively
+desire,"desirable, undesirable, desired, undesired",desire,
+"destroyer, destruction","indestructible, destructive",destroy,destructively
+"determination, determiner","determined, predetermined,indeterminate",determine,determinedly
+"developer, development,","developed, undeveloped, developing","develop, redevelop",
+"difference, indifference, differentation","different, indifferent","differ, differentiate",differently
+"directness, direction, directions, director","direct, indirect","direct, redirect","directly, indirectly"
+disagreement,disagreeable,disagree,disagreeably
+disappointment,"disappointed, disappointing",disappoint,disappointingly
+disaster,disastrous,,disastrously
+"disciplinarian, discipline","disciplinary, disciplined, undisciplined",discipline,
+"discoverer, discovery",,discover,
+distance,distant,distance,distantly
+disturbance,"disturbed, undisturbed, disturbing",disturb,disturbingly
+"divide, division, subdivision","divided, undivided, divisible, divisive","divide, subdivide",
+"divorce, divorcee",divorced,divorce,
+"do, doing","done, overdone, undone","do, outdo, overdo, redo, undo",
+"doubt, doubter","undoubted, doubtful, doubtless",doubt,"undoubtedly, doubtfully"
+"dream, dreamer","dream, dreamless, dreamy",dream,dreamily
+"dress, dresser, dressing","dressed, undressed, dressy","dress, redress, undress",dressily
+"drink, drinker, drinking, drunk,
+drunkenness","drunk, drunken",drink,drunkenly
+"drive, driver, driving",driving,drive,
+"due, dues","due, undue",,"due, duly, unduly"
+"earner, earnings",,earn,
+earth,"earthy, earthly, unearthly",unearth,
+"ease, unease, easiness","easy, uneasy",ease,"easily, uneasily, easy"
+"east, easterner","east, easterly, eastern","east, eastward(s)",
+"economics, economist, economy","economic, economical, economize, uneconomic(al)",economically,
+education,"educated, uneducated, educational",educate,educationally
+"effect, effectiveness, ineffectiveness","effective, ineffective, ineffectual",effect,"effectively, ineffectively"
+effort,effortless,,effortlessly
+"election, re-election, elector,electorate","unelected, electoral","elect, re-elect",
+"electrician, electricity","electric, electrical",electrify,electrically
+electronics,electronic,,electronically
+embarrassment,"embarrassed, embarrassing",embarrass,embarrassingly
+emotion,"emotional, emotive",,emotionally
+emphasis,emphatic,emphasize,emphatically
+"employee, employer, employment, unemployment",unemployed,employ,
+"encouragement, discouragement","encouraged, encouraging, discouraging","encourage, discourage",encouragingly
+"end, ending","unending, endless",end,endlessly
+energy,energetic,energize,energetically
+enjoyment,enjoyable,enjoy,enjoyably
+"entrance, entrant, entry",,enter,
+"entertainer, entertainment",entertaining,entertain,entertainingly
+"enthusiasm, enthusiast","enthusiastic, unenthusiastic",enthuse,"enthusiastically, unenthusiastically"
+"environment, environmentalist",environmental,,environmentally
+"equality, inequality","equal, unequal",equalize,"equally, unequally"
+"escape, escapism","escaped, inescapable",escape,inescapably
+"essence, essentials",essential,essentially,
+"estimate, estimation",estimated,"estimate, overestimate, underestimate",
+"event, non-event","eventful, uneventful, eventual",,"eventfully, eventually"
+"exam, examination, cross-examination, examiner",,,"examine, cross-examine"
+excellence,excellent,excel,excellently
+excitement,"excitable, excited, exciting, unexciting",excite,"excitedly, excitingly"
+excuse,"excusable, inexcusable",excuse,inexcusably
+existence,"non-existent, existing, pre-existing","exist, coexist",
+"expectancy, expectation","expectant, unexpected",expect,"expectantly, unexpectedly"
+"expenditure, expense, expenses","expensive, inexpensive",expend,"expensively, inexpensively"
+"experience, inexperience","experienced, inexperienced",experience,
+experiment,experimental,experiment,experimentally
+"expert, expertise","expert, inexpert",,expertly
+"explaining, explanation","unexplained, explanatory, explicable, inexplicable",explain,inexplicably
+"explosion, explosive","exploding, explosive",explode,explosively
+"exploration, explorer",exploratory,explore,
+expression,expressive,express,expressively
+"extreme, extremism, extremist, extremity","extreme, extremist",,extremely
+fact,factual,,factually
+"fail, failure",unfailing,fail,unfailingly
+fairness,"fair, unfair",,"fairly, unfairly"
+"faith, faithfulness","faithful, unfaithful",,faithfully
+"familiarity,family","familiar, unfamiliar",familiarize,familiarly
+fame,"famed,famous, infamous",,"famously, infamously"
+fashion,"fashionable, unfashionable",fashion,"fashionably, unfashionably"
+fat,"fat, fattening, fatty",fatten,
+fastener,,"fasten, unfasten",
+fault,"faultless, faulty",fault,faultlessly
+fear,"fearful, fearless, fearsome",fear,"fearfully, fearlessly"
+"feel,feeling, feelings",unfeeling,feel,
+"fiction, nonfiction",fictional,,
+"fill, refill, filling",filling,"fill, refill",
+"final, semifinal, finalist",final,finalize,finally
+finish,"finished, unfinished",finish,
+"firmness, infirmity","firm, infirm",,firmly
+"fish, fishing",fishy,fish,fishily
+"fit, fittings","fitted, fitting",fit,fittingly
+"fix, fixation, fixture","fixed, transfixed, unfixed",fix,
+flat,flat,flatten,"flat, flatly"
+flower,"flowered/flowery, flowering",flower,
+"fold, folder","folded, folding","fold, unfold",
+"follower, following",following,follow,
+force,"forceful, forcible",force,"forcefully, forcibly"
+"forest, deforestation, forestry",forested,,
+forgetfulness,"forgetful, unforgettable",forget,forgetfully
+forgiveness,"forgiving, unforgiving",forgive,
+"form, formation, transformation, reformer, transformer",reformed,"form, reform, transform",
+formality,"formal, informal",formalize,"formally, informally"
+fortune,"fortunate, unfortunate",,"fortunately, unfortunately"
+"freebie,freedom",free,free,"free, freely"
+"freeze, freezer, freezing","freezing, frozen",freeze,
+"frequency, infrequency","frequent, infrequent",frequent,"frequently, infrequently"
+"freshness, refreshments","fresh, refreshing","freshen, refresh","freshly, refreshingly"
+"friend, friendliness","friendly, unfriendly",befriend,
+fright,"frightened,frightening, frightful",frighten,"frighteningly, frightfully"
+"fruit, fruition","fruitful, fruitless, fruity",,"fruitfully, fruitlessly"
+"fund, refund, funding",funded,"fund, refund",
+"furnishings,furniture","furnished, unfurnished",furnish,
+"garden, gardener, gardening",,garden,
+generalization,general,generalize,generally
+generosity,generous,,generously
+gentleness,gentle,,gently
+gladness,glad,gladden,gladly
+"glass, glasses",glassy,,
+"good, goodies, goodness, goods",good,,
+"government, governor","governmental, governing",govern,governmentally
+"gratitude, ingratitude","grateful, ungrateful",,gratefully
+greatness,great,,greatly
+"ground, underground, grounding, grounds","groundless, underground",ground,underground
+"grower, growth, undergrowth","growing, grown, overgrown","grow, outgrow",
+"guilt, guiltiness",guilty,,guiltily
+habit,habitual,,habitually
+"hair, hairiness","hairless, hairy",,
+"hand, handful","underhand, handy",hand,
+"handle, handler, handling",,handle,
+hanger,hanging,"hang, overhang",
+"happiness, unhappiness","happy, unhappy",,"happily, unhappily"
+"harm, harmfulness","unharmed, harmful, harmless",harm,harmlessly
+"head, heading, overheads","overhead, heady","head, behead",overhead
+health,"healthy, unhealthy",,"healthily, unhealthily"
+heart,"heartened, heartening, heartless, hearty","heartily, heartlessly",
+"heat, heater, heating","heated, unheated","heat, overheat",heatedly
+"height, heights",heightened,heighten,
+"help, helper, helpfulness, helping","helpful, unhelpful, helpless",help,"helpfully, helplessly"
+highness,high,,"high, highly"
+"historian, history","historic, prehistoric, historical",,historically
+"hold, holder, holding",,hold,
+home,"homeless, homely",home,home
+"honesty, dishonesty","honest, dishonest",,"honestly, dishonestly"
+"hope, hopefulness, hopelessness","hopeful, hopeless",hope,"hopefully, hopelessly"
+"human, humanism, humanity","human, inhuman, superhuman, humane","humanly, humanely",inhumanity
+hunger,hungry,,hungrily
+hurry,"hurried, unhurried",hurry,hurriedly
+hurt,"unhurt, hurtful",hurt,hurtfully
+"ice, icicle, icing",icy,ice,icily
+"identification, identity","identifiable, unidentified",identify,
+imagination,"imaginable, unimaginable, imaginary, imaginative",imagine,"unimaginably,  imaginatively"
+importance,"important, unimportant",,importantly
+impression,"impressionable, impressive",impress,impressively
+improvement,improved,improve,
+increase,increased,increase,increasingly
+"credibility, incredulity","incredible,credible, incredulous",,"incredibly, incredulously"
+"independence, independent",independent,,independently
+"industrialist, industrialization, industry","industrial, industrialized, industrious",,"industrially, industriously"
+"infection, disinfectant",infectious,"infect, disinfect",infectiously
+inflation,"inflatable, inflated, inflationary","inflate, deflate",
+"informant, information, informer","informative, uninformative, informed, uninformed","inform, misinform",
+injury,"injured, uninjured",injure,
+innocence,innocent,,innocently
+insistence,insistent,insist,insistently
+"instance, instant","instant, instantaneous",,"instantly, instantaneously"
+"instruction, instructor",instructive,instruct,instructively
+intelligence,"intelligent, unintelligent, intelligible, unintelligible",intelligently,
+"intent, intention","intended, unintended, intentional, unintentional",intend,"intentionally, unintentionally"
+interest,"interested, disinterested, uninterested, interesting",interest,interestingly
+interruption,uninterrupted,interrupt,
+"interview, interviewee",,interview,
+introduction,introductory,introduce,
+"invention, inventiveness, inventor",inventive,"invent, reinvent",inventively
+"invitation, invite","uninvited, inviting",invite,invitingly
+involvement,"involved, uninvolved",involve,
+item,itemized,itemize,
+"joke, joker",,joke,jokingly
+"journal, journalism, journalist",journalistic,,
+"judge, judg(e)ment",judgmental,judge,
+"juice, juices",juicy,,
+keenness,keen,,keenly
+"keep, keeper, keeping",kept,keep,
+"kill, overkill, killer, killing",,kill,
+"kindness, unkindness","kind, unkind",,"kindly, unkindly"
+knowledge,"knowing, knowledgeable, known, unknown",know,"knowingly, unknowingly, knowledgeably"
+enlargement,large,enlarge,largely
+"laugh, laughter",laughable,laugh,laughably
+"law, lawyer, outlaw","lawful, unlawful",outlaw,"lawfully, unlawfully"
+laziness,lazy,,lazily
+"lead, leader, leadership","lead, leading",lead,
+"learner, learning","learned, unlearned",learn,
+"legality, illegality, legalization","legal, illegal",legalize,"legally, illegally"
+length,"lengthy, lengthening",lengthen,lengthily
+"liar, lie",lying,lie,
+life,"lifeless, lifelike, lifelong",,lifelessly
+"light, lighter, lighting, lightness",light,"light, lighten",lightly
+"dislike, liking",likeable,"like, dislike",
+likelihood,"likely, unlikely",,likely
+"limit, limitation, limitations","limited, unlimited",limit,
+"literature, literacy","literary, literate, illiterate",,
+"liveliness, living","live, lively, living","live, outlive, relive",live
+"local, location, relocation",local,"dislocate, relocate",locally
+"loser, loss",lost,lose,
+,loud,,"aloud, loud/loudly"
+"love, lover","lovable, unlovable, loveless, lovely, loving",love,lovingly
+low,"low, lower, lowly",lower,low
+luck,"lucky, unlucky",,"luckily, unluckily"
+"machine, machinery, mechanic, mechanics, mechanism, machinist","mechanical, mechanized",,mechanically
+"magic, magician","magic, magical",,magically
+"make, remake, maker, making",unmade,"make, remake",
+"man, manhood, mankind, manliness, mannishness","manly, manned, unmanned, mannish",man,"mannishly, manfully"
+"management, manager, manageress","manageable, unmanageable, manage managerial",,
+"mark, marker, markings","marked, unmarked",mark,markedly
+"market, marketing, marketability, marketer, marketeer",marketable,market,
+marriage,"married, unmarried, marriageable","marry, remarry",
+"match, mismatch","matching, unmatched, matchless",match,matchlessly
+"material, materialism, materialist, materials, materialization","material, immaterial, materialistic",materialize,materially
+"meaning, meaningfulness","meaningful, meaningless",mean,"meaningfully, meaninglessly"
+"measure,measurement","measurable, immeasurable, measured",measure,immeasurably
+"medical, medication, medicine","medical, medicated, medicinal, medicinally",,medically
+"memorial,memory",memorable,memorize,memorably
+mentality,mental,,mentally
+"method, methodology","methodical, methodological",,methodically
+"militancy, militant, the military, militia, militarist, militarism","military, militant, militaristic, demilitarized",,"militantly, militarily"
+"mind, minder, reminder, mindlessness","mindless, mindful","mind, remind",mindlessly
+"minimum, minimization","minimal, minimum, minimalist",minimize,minimally
+miss,missing,miss,
+mistake,"mistaken, unmistakable",mistake,"unmistakably, mistakenly"
+"mix, mixer,mixture",mixed,mix,
+"modernity, modernization","modern, modernistic",modernize,
+moment,"momentary, momentous",,momentarily
+"mood, moodiness",moody,,moodily
+"moral, morals, morality, immorality","moral, amoral, immoral, moralistic",moralize,morally
+"mother, motherhood",motherly,mother,
+"move,movement, removal, remover, mover","movable, unmoved, moving","move, remove",movingly
+"murder, murderer",murderous,murder,murderously
+"music, musical, musician, musicianship, musicality,
+musicologist, musicology","musical, unmusical",,musically
+name,"named, unnamed, nameless","name, rename",namely
+"nation, national, multinational, nationalism, nationalist, nationality, nationalization","national, international,  multinational, nationalistic",nationalize,"nationally, internationally"
+"nature, naturalist, naturalization, naturalness the supernatural, naturist, naturism","natural,supernatural, unnatural, naturalistic",naturalize,"naturally, unnaturally"
+necessity,"necessary, unnecessary",necessitate,"necessarily, unnecessarily"
+"need, needs","needless, needy, needed",need,needlessly
+"nerve, nerves, nervousness","nervous, nervy, nerveless, unnerving",unnerve,"nervously, nervelessly, unnervingly"
+"news, renewal, newness","new, renewable, renewed",renew,"newly, anew"
+"night, midnight",,,"overnight, nightly, nights"
+"noise, noisiness","noisy, noiseless",,noisily
+"normality/US normalcy, abnormality, norm","normal, abnormal",normalize,"normally, abnormally"
+"north, northerne","north, northerly, northern, northward(s), northbound",,"north, northward(s), northbound"
+notice,"noticeable, unnoticed",notice,noticeably
+"number, numeral","innumerable, numerical, numerous, numbered, numerate","number, outnumber, enumerate",
+"nurse, nursery, nursing",,nurse,
+"obedience, disobedience","obedient, disobedient","obey, disobey","obediently, disobediently"
+occasion,occasional,,occasionally
+"offence/US offense, offender, offensive","offensive, inoffensive",offend,offensively
+"office, officer, official, officialdom","official, unofficial",officiate,"officially, unofficially"
+"the open, opener, opening, openness","open, opening",open,openly
+"operation,cooperation, operative, cooperative, operator","operational, operative, cooperative, operable","operate,cooperate",operationally
+"opposition, opposite","opposed, opposing, opposite",oppose,opposite
+option,optional,opt,optionally
+"order, disorder","disordered, orderly, disorderly, ordered",order,
+"organization, disorganization, reorganization, organizer","organizational, organized",disorganized,"organize, disorganize, reorganize"
+"origin, original, originality, originator","original, unoriginal",originate,originally
+"owner, ownership",,"own, disown",
+"pack, package, packaging, packet, packing, packer",packed,"pack, unpack, package",
+pain,"pained, painful, painless",pain,"painfully, painlessly"
+"paint, painter, painting",,paint,
+"part,counterpart, parting, partition","partial, parting, impartial","part, partition, depart, impart","part, partially, partly"
+"pass, overpass, underpass, passage, passing","passing, passable",pass,
+"patience, impatience, patient","patient, impatient",,"patiently, impatiently"
+"pay, payment, repayment, payee, payer, payoff, payback, payout","unpaid, underpaid","pay, repay",
+peace,peaceful,pacify,peacefully
+"perfection, imperfection, perfectionist, perfectionism","perfect, imperfect",perfect,perfectly
+"performance, performer",,perform,
+"permission, permit, permissiveness","permissible, impermissible, permissive",permit,
+"person, personality","personal, impersonal, personalized, personable","personalize, personify",personally
+"persuasion, persuasiveness",persuasive,"persuade, dissuade",persuasively
+"photo, photograph, photographer, photography","photogenic, photographic",photograph,
+picture,"pictorial, picturesque",picture,
+"place, placement, displacement, replacement",misplaced,"place, displace, replace",
+"plan, planner, planning",unplanned,plan,
+"plant, transplant, plantation, planter",,"plant, transplant",
+"play, interplay, replay, player, playfulness, playback, playoff","playful, playable","play, outplay, replay, downplay, underplay",playfully
+"pleasantry, pleasure, displeasure","pleasant, unpleasant, pleased, displeased, pleasing, pleasurable","please, displease","pleasantly, unpleasantly"
+"poem, poet, poetry",poetic,,poetically
+"point, pointer, pointlessness","pointed, pointless, pointy",point,"pointlessly, pointedly"
+politeness,"polite, impolite",,"politely, impolitely"
+"politician, politics, politicking","political, politicized",politicize,politically
+"popularity, unpopularity, popularization","popular, unpopular",popularize,popularly
+population,"populated, unpopulated, populous",populate,
+"possibility, impossibility, the impossible","possible, impossible",,"possibly, impossibly"
+"post, postage",postal,post,
+"power,superpower, powerlessness","powerful, overpowering, powerless","power, empower, overpower",powerfully
+"practical, practicalities, practicality, practicability","practicable, practical, impractical",,practically
+"practice, practitioner","practised/US practiced, practising/US practicing",practise/US practice,
+precision,"precise, imprecise",,precisely
+preference,"preferable, preferential, preferred",prefer,preferably
+"preparation, preparations, preparedness","prepared, unprepared, preparatory",prepare,
+"presence, present, presentation, presenter ","present, presentable","present, represent",presently
+"press, pressure","pressed, pressing, pressurized","press, pressure/pressurize, depress, repress",
+prevention,"preventable, preventive/preventative",prevent,
+price,"overpriced, priceless, pricey/pricy",price,
+"print, printer, printing","printed, printable",print,
+"prison, prisoner, imprisonment",,imprison,
+"privacy, private, privatization",private,privatize,privately
+probability,"probable, improbable",,"probably, improbably"
+"process, processing, procession,
+processor","processed, processional",process,
+"produce, producer, product, productively,production, reproduction, productivity","productive, counterproductive,reproductive, unproductive","produce, reproduce","unproductive,"
+"profession, professional,professionalism","professional, unprofessional",,professionally
+"profit, profitability, profiteer,profiteering","profitable, unprofitable",profit,profitably
+"progress, progression",progressive,progress,progressively
+proof,"proven, unproven","prove, disprove, proof",
+"protection, protector, protectionism,protectorate","protected, unprotected, protective,
+protectionist, protectively",protect,
+"provider, provision, provisions",provisional,provide,provisionally
