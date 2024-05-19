@@ -41,8 +41,8 @@ jobs:
         gcloud config set project memoflash
 
     - name: Copy files to GCP
-      run: gcloud compute scp ./ ${{ secrets.GCP_VM_NAME }}:~/app/ --recurse --zone ${{ secrets.GCP_ZONE }}
+      run: gcloud compute scp /home/kathy/Proyectos/memoflash_back ${{ secrets.GCP_VM_NAME }}:~/memoflash_back/ --recurse --zone ${{ secrets.GCP_ZONE }}
 
     - name: SSH and Restart server
       run: |
-        gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "./start.sh /home/kattyko_gzc/.env"
+        gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "./start.sh /home/kattyko_gzc/memoflash_back/.env"
