@@ -37,6 +37,6 @@ class LoginAPIView(TokenObtainPairView):
         response_data = {
             'token': token,
             'user_id': user.id,
-            'user_name': user.full_name
+            'full_name': user.full_name
         }
         return Response(response_data)
