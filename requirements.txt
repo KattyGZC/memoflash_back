@@ -1,6 +1,17 @@
+gunicorn
 asgiref==3.8.1
 backports.zoneinfo==0.2.1
 Django==4.2.7
 djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
+google-cloud-secret-manager
+numpy==1.24.4
+pandas==2.0.3
+PyJWT==2.8.0
+python-dateutil==2.9.0.post0
+pytz==2024.1
+six==1.16.0
 sqlparse==0.5.0
+supervisor
 typing-extensions==4.11.0
+tzdata==2024.1
