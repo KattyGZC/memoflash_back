@@ -24,12 +24,21 @@ jobs:
       run: |
         pip install -r requirements.txt
 
+    - name: Setup SSH for gcloud
+      env:
+        GCP_SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      run: |
+        mkdir -p ~/.ssh
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/google_compute_engine
+        chmod 600 ~/.ssh/google_compute_engine
+        ssh-keyscan -t rsa [${{ secrets.GCP_IP_EXTERNAL }}] >> ~/.ssh/known_hosts
     - name: Authenticate with GCP
       env:
         GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
       run: |
         echo "$GCP_SA_KEY" | base64 --decode > gcp-key.json
         gcloud auth activate-service-account --key-file=gcp-key.json
+        gcloud config set project memoflash
 
     - name: Copy files to GCP
       run: gcloud compute scp ./ ${{ secrets.GCP_VM_NAME }}:~/app/ --recurse --zone ${{ secrets.GCP_ZONE }}
