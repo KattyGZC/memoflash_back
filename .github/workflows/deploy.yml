@@ -20,10 +20,6 @@ jobs:
     - name: Install build tools
       run: pip install setuptools wheel
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-
     - name: Setup SSH for gcloud
       env:
         GCP_SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
