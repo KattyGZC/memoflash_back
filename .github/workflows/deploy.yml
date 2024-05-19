@@ -29,6 +29,7 @@ jobs:
         GCP_SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         GCP_IP_EXTERNAL: ${{ secrets.GCP_IP_EXTERNAL }}
       run: |
+        echo "Using IP Address: $GCP_IP_EXTERNAL"
         mkdir -p ~/.ssh
         echo "$GCP_SSH_PRIVATE_KEY" > ~/.ssh/google_compute_engine
         chmod 600 ~/.ssh/google_compute_engine
