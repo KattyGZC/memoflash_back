@@ -27,11 +27,12 @@ jobs:
     - name: Setup SSH for gcloud
       env:
         GCP_SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        GCP_IP_EXTERNAL: ${{ secrets.GCP_IP_EXTERNAL }}
       run: |
         mkdir -p ~/.ssh
         echo "$GCP_SSH_PRIVATE_KEY" > ~/.ssh/google_compute_engine
         chmod 600 ~/.ssh/google_compute_engine
-        ssh-keyscan -t rsa [${{ secrets.GCP_IP_EXTERNAL }}] >> ~/.ssh/known_hosts
+        ssh-keyscan -t rsa [GCP_IP_EXTERNAL] >> ~/.ssh/known_hosts
     - name: Authenticate with GCP
       env:
         GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
