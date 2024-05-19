@@ -6,13 +6,6 @@ charset-normalizer==3.3.2
 Django==4.2.7
 djangorestframework==3.15.1
 djangorestframework-simplejwt==5.3.1
-google-api-core==2.19.0
-google-auth==2.29.0
-google-cloud-secret-manager==2.20.0
-googleapis-common-protos==1.63.0
-grpc-google-iam-v1==0.13.0
-grpcio==1.63.0
-grpcio-status==1.63.0
 gunicorn==22.0.0
 idna==3.7
 numpy
