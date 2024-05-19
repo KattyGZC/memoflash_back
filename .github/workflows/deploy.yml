@@ -50,4 +50,3 @@ jobs:
     - name: SSH and Restart server
       run: |
         gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "sudo supervisorctl restart all"
-
