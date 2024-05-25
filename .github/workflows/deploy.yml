@@ -55,28 +55,32 @@ jobs:
           GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
           GCP_ZONE: ${{ secrets.GCP_ZONE }}
           GCP_MAIN_DIR: ${{ secrets.GCP_MAIN_DIR }}
-        run: gcloud compute scp /home/runner/work/memoflash_back/memoflash_back kattyko_gzc@$GCP_VM_NAME:$GCP_MAIN_DIR --recurse --zone $GCP_ZONE
+          GCP_USR: ${{ secrets.GCP_USR }}
+        run: gcloud compute scp /home/runner/work/memoflash_back/memoflash_back $GCP_USR@$GCP_VM_NAME:$GCP_MAIN_DIR --recurse --zone $GCP_ZONE
 
       - name: Change ownership
         env:
           GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
           GCP_ZONE: ${{ secrets.GCP_ZONE }}
           GCP_MAIN_DIR: ${{ secrets.GCP_MAIN_DIR }}
+          GCP_USR: ${{ secrets.GCP_USR }}
         run: |
-          gcloud compute ssh kattyko_gzc@$GCP_VM_NAME --zone $GCP_ZONE --command "sudo chown -R kattyko_gzc:kattyko_gzc $GCP_MAIN_DIR/memoflash_back"
+          gcloud compute ssh $GCP_USR@$GCP_VM_NAME --zone $GCP_ZONE --command "sudo chown -R $GCP_USR:$GCP_USR $GCP_MAIN_DIR/memoflash_back"
 
       - name: Set execute permission for start.sh
         env:
           GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
           GCP_ZONE: ${{ secrets.GCP_ZONE }}
           GCP_MAIN_DIR: ${{ secrets.GCP_MAIN_DIR }}
+          GCP_USR: ${{ secrets.GCP_USR }}
         run: |
-          gcloud compute ssh kattyko_gzc@$GCP_VM_NAME --zone $GCP_ZONE --command "sudo chmod +x $GCP_MAIN_DIR/memoflash_back/start.sh"
+          gcloud compute ssh $GCP_USR@$GCP_VM_NAME --zone $GCP_ZONE --command "sudo chmod +x $GCP_MAIN_DIR/memoflash_back/start.sh"
 
       - name: SSH and Restart server
         env:
           GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
           GCP_ZONE: ${{ secrets.GCP_ZONE }}
           GCP_MAIN_DIR: ${{ secrets.GCP_MAIN_DIR }}
+          GCP_USR: ${{ secrets.GCP_USR }}
         run: |
-          gcloud compute ssh kattyko_gzc@$GCP_VM_NAME --zone $GCP_ZONE --command "$GCP_MAIN_DIR/memoflash_back/start.sh $GCP_MAIN_DIR/memoflash_back/.env"
+          gcloud compute ssh $GCP_USR@$GCP_VM_NAME --zone $GCP_ZONE --command "$GCP_MAIN_DIR/memoflash_back/start.sh $GCP_MAIN_DIR/memoflash_back/.env"
