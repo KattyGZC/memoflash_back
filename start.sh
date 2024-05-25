@@ -1,16 +1,15 @@
 #!/bin/bash
-# Asume que el primer argumento es la ruta al archivo .env
 ENV_PATH=$1
-
 
 # Carga las variables de entorno desde el archivo .env
 set -a
 source "$ENV_PATH"
 set +a
 
-source ${ENV_GUNICORN_CMD}/activate
-
-# Continuar con la instalación de requisitos y ejecución de supervisord
-pip install -r ${ENV_GUNICORN_DIR}/requirements.txt
-${ENV_GUNICORN_CMD}/supervisord -c ${ENV_GUNICORN_DIR}/supervisord.conf
+cd ${ENV_GUNICORN_DIR}
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+# Ejecutar supervisord u otros comandos necesarios
+.venv/bin/supervisord -c supervisord.conf
 
