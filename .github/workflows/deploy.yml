@@ -58,4 +58,4 @@ jobs:
         GCP_VM_NAME:  ${{ secrets.GCP_VM_NAME }}
         GCP_ZONE: ${{ secrets.GCP_ZONE }}
       run: |
-        gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "./start.sh /home/kattyko_gzc/memoflash_back/.env"
+        gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "/home/kattyko_gzc/memoflash_back/start.sh /home/kattyko_gzc/memoflash_back/.env"
