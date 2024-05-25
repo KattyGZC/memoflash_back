@@ -6,6 +6,9 @@ set -a
 source "$ENV_PATH"
 set +a
 
+sudo chown -R $USER:$USER /home/kattyko_gzc/memoflash_back
+sudo chmod -R 755 /home/kattyko_gzc/memoflash_back
+
 cd ${ENV_GUNICORN_DIR}
 python3 -m venv .venv
 source .venv/bin/activate
