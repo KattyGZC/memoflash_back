@@ -53,9 +53,16 @@ jobs:
         GCP_ZONE: ${{ secrets.GCP_ZONE }}
       run: gcloud compute scp ./memoflash_back $GCP_VM_NAME:~/memoflash_back/ --recurse --zone $GCP_ZONE
 
+    - name: Set execute permission for start.sh
+      env: 
+        GCP_VM_NAME:  ${{ secrets.GCP_VM_NAME }}
+        GCP_ZONE: ${{ secrets.GCP_ZONE }}
+      run: |
+        gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "chmod +x /home/kattyko_gzc/memoflash_back/start.sh"
+
     - name: SSH and Restart server
       env: 
         GCP_VM_NAME:  ${{ secrets.GCP_VM_NAME }}
         GCP_ZONE: ${{ secrets.GCP_ZONE }}
       run: |
-        gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "/home/kattyko_gzc/memoflash_back/start.sh /home/kattyko_gzc/memoflash_back/.env"
+        gcloud compute ssh $GCP_VM_NAME --zone $GCP_ZONE --command "/home/kattyko_gzc/memoflash_back/start.sh /home/kattyko_gzc/memoflash_back/.env"
