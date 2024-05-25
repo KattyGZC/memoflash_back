@@ -11,6 +11,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Print working directory in GitHub Actions
+        run: pwd
+
+      - name: List files in GitHub Actions
+        run: ls -la
       
       - name: Authenticate with Google Cloud
         uses: google-github-actions/auth@v1
@@ -21,7 +27,6 @@ jobs:
         uses: google-github-actions/setup-gcloud@v1
         with:
           project_id: memoflash
-          export_default_credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -51,11 +56,25 @@ jobs:
           gcloud auth activate-service-account --key-file=gcp-key.json
           gcloud config set project memoflash
 
+      - name: Print working directory in GCP VM
+        env:
+          GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
+          GCP_ZONE: ${{ secrets.GCP_ZONE }}
+        run: |
+          gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "pwd"
+
       - name: Copy files to GCP
         env:
           GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
           GCP_ZONE: ${{ secrets.GCP_ZONE }}
         run: gcloud compute scp ./memoflash_back $GCP_VM_NAME:~/memoflash_back/ --recurse --zone $GCP_ZONE
+
+      - name: List files in GCP VM
+        env:
+          GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
+          GCP_ZONE: ${{ secrets.GCP_ZONE }}
+        run: |
+          gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "ls -la"
 
       - name: Set execute permission for start.sh
         env:
