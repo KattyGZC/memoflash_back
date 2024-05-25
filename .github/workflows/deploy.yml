@@ -12,6 +12,13 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Setup gcloud CLI
+      uses: google-github-actions/setup-gcloud@v0
+      with:
+        project_id: memoflash
+        service_account_key: ${{ secrets.GCP_SA_KEY }}
+        export_default_credentials: true
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -44,7 +51,7 @@ jobs:
       env:
         GCP_VM_NAME:  ${{ secrets.GCP_VM_NAME }}
         GCP_ZONE: ${{ secrets.GCP_ZONE }}
-      run: gcloud compute scp /home/kathy/Proyectos/memoflash_back $GCP_VM_NAME:~/memoflash_back/ --recurse --zone $GCP_ZONE
+      run: gcloud compute scp ./memoflash_back $GCP_VM_NAME:~/memoflash_back/ --recurse --zone $GCP_ZONE
 
     - name: SSH and Restart server
       env: 
