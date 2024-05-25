@@ -42,10 +42,13 @@ jobs:
 
     - name: Copy files to GCP
       env:
-        GCP_VW_NAME:  ${{ secrets.GCP_VM_NAME }}
+        GCP_VM_NAME:  ${{ secrets.GCP_VM_NAME }}
         GCP_ZONE: ${{ secrets.GCP_ZONE }}
       run: gcloud compute scp /home/kathy/Proyectos/memoflash_back $GCP_VM_NAME:~/memoflash_back/ --recurse --zone $GCP_ZONE
 
     - name: SSH and Restart server
+      env: 
+        GCP_VM_NAME:  ${{ secrets.GCP_VM_NAME }}
+        GCP_ZONE: ${{ secrets.GCP_ZONE }}
       run: |
         gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "./start.sh /home/kattyko_gzc/memoflash_back/.env"
