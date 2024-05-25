@@ -67,7 +67,7 @@ jobs:
         env:
           GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
           GCP_ZONE: ${{ secrets.GCP_ZONE }}
-        run: gcloud compute scp ./memoflash_back/memoflash_back $GCP_VM_NAME:/home/kattyko_gzc/ --recurse --zone $GCP_ZONE
+        run: gcloud compute scp /home/runner/work/memoflash_back/memoflash_back $GCP_VM_NAME:/home/kattyko_gzc/ --recurse --zone $GCP_ZONE
 
       - name: List files in GCP VM
         env:
