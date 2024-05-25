@@ -13,6 +13,24 @@ cd ${ENV_GUNICORN_DIR}
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-# Ejecutar supervisord u otros comandos necesarios
+# Comprobar si supervisord está en ejecución
+PID=$(pgrep -f supervisord)
+
+if [ "$PID" ]; then
+    echo "Supervisord is running with PID: $PID, shutting it down..."
+    supervisorctl stop all
+    supervisorctl shutdown
+else
+    echo "Supervisord is not running."
+fi
+
+# Esperar un momento para asegurarse de que todos los procesos se han detenido
+sleep 5
+
+# Iniciar supervisord
+echo "Starting supervisord..."
 .venv/bin/supervisord -c supervisord.conf
+
+# Mostrar el estado de los procesos
+supervisorctl status
 
