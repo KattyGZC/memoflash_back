@@ -11,12 +11,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Print working directory in GitHub Actions
-        run: pwd
-
-      - name: List files in GitHub Actions
-        run: ls -la
       
       - name: Authenticate with Google Cloud
         uses: google-github-actions/auth@v1
@@ -56,18 +50,12 @@ jobs:
           gcloud auth activate-service-account --key-file=gcp-key.json
           gcloud config set project memoflash
 
-      - name: Print working directory in GCP VM
-        env:
-          GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
-          GCP_ZONE: ${{ secrets.GCP_ZONE }}
-        run: |
-          gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "pwd"
-
       - name: Copy files to GCP
         env:
           GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
           GCP_ZONE: ${{ secrets.GCP_ZONE }}
-        run: gcloud compute scp /home/runner/work/memoflash_back/memoflash_back $GCP_VM_NAME:/home/kattyko_gzc --recurse --zone $GCP_ZONE
+          GCP_MAIN_DIR: ${{ secrets.GCP_MAIN_DIR }}
+        run: gcloud compute scp /home/runner/work/memoflash_back/memoflash_back $GCP_VM_NAME:$GCP_MAIN_DIR --recurse --zone $GCP_ZONE
 
       - name: List files in GCP VM
         env:
@@ -80,12 +68,14 @@ jobs:
         env:
           GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
           GCP_ZONE: ${{ secrets.GCP_ZONE }}
+          GCP_MAIN_DIR: ${{ secrets.GCP_MAIN_DIR }}
         run: |
-          gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "sudo chmod +x /home/kattyko_gzc/memoflash_back/start.sh"
+          gcloud compute ssh ${{ secrets.GCP_VM_NAME }} --zone ${{ secrets.GCP_ZONE }} --command "sudo chmod +x $GCP_MAIN_DIR/memoflash_back/start.sh"
 
       - name: SSH and Restart server
         env:
           GCP_VM_NAME: ${{ secrets.GCP_VM_NAME }}
           GCP_ZONE: ${{ secrets.GCP_ZONE }}
+          GCP_MAIN_DIR: ${{ secrets.GCP_MAIN_DIR }}
         run: |
-          gcloud compute ssh $GCP_VM_NAME --zone $GCP_ZONE --command "/home/kattyko_gzc/memoflash_back/start.sh /home/kattyko_gzc/memoflash_back/.env"
+          gcloud compute ssh $GCP_VM_NAME --zone $GCP_ZONE --command "$GCP_MAIN_DIR/memoflash_back/start.sh $GCP_MAIN_DIR/memoflash_back/.env"
