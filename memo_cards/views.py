@@ -12,7 +12,7 @@ from .models import Topic, Card, Item
 
 
 def greeting(request):
-    return HttpResponse("API MemoFlash")
+    return HttpResponse("API Rollacard")
 
 
 class IndexAPIView(APIView):
@@ -49,6 +49,12 @@ class ListCardView(APIView):
         if pk == 1:
             data_cards = Card.objects.filter(topic=1)
             for card in data_cards:
-                data[card.id] = [{'title': item.title, 'content': item.content.title(), 'comment': item.comment.title()} for item in card.items.all()]
+                data[card.id] = [
+                    {
+                        'title': item.title, 
+                        'content': item.content.title() if item.content.title() else "", 
+                        'comment': item.comment.title()
+                    } for item in card.items.all()
+                ]
 
         return Response(data, status=status.HTTP_200_OK)
