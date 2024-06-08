@@ -47,7 +47,7 @@ class ListCardView(APIView):
             user = 1
         
         if pk == 1:
-            data_cards = Card.objects.filter(topic=1)
+            data_cards = Card.objects.filter(topic=1, topic__user=user)
             for card in data_cards:
                 data[card.id] = [
                     {
