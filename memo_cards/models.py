@@ -35,3 +35,6 @@ class Item(models.Model):
     class Meta:
         verbose_name = 'Item'
         verbose_name_plural = 'Items'
+    
+    def __str__(self):
+        return f'{self.id} - {self.card}'

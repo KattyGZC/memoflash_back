@@ -8,11 +8,11 @@ from rest_framework_simplejwt.authentication import JWTAuthentication
 
 import pandas as pd
 
-from .models import Topic
+from .models import Topic, Card, Item
 
 
 def greeting(request):
-    return HttpResponse("API MemoFlash")
+    return HttpResponse("API Rollacard")
 
 
 class IndexAPIView(APIView):
@@ -47,14 +47,14 @@ class ListCardView(APIView):
             user = 1
         
         if pk == 1:
-            df = pd.read_csv(f'{BASE_DIR}/src/word_families.csv')
-            data = {}
-            for index, row in df.iterrows():
-                data[str(index)] = [
-                    {'title': 'noun', 'content': str(row['Nouns']).title(), 'comment': ''},
-                    {'title': 'adjective', 'content': str(row['Adjectives']).title(), 'comment': ''},
-                    {'title': 'verb', 'content': str(row['Verbs']).title(), 'comment': ''},
-                    {'title': 'adverb', 'content': str(row['Adverbs']).title(), 'comment': ''}
+            data_cards = Card.objects.filter(topic=1, topic__user=user)
+            for card in data_cards:
+                data[card.id] = [
+                    {
+                        'title': item.title, 
+                        'content': item.content.title() if item.content.title() else "", 
+                        'comment': item.comment.title()
+                    } for item in card.items.all()
                 ]
 
         return Response(data, status=status.HTTP_200_OK)
