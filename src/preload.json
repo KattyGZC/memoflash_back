@@ -1,27 +1,27 @@
 [
-    {
-        "model": "users.user",
-        "pk": 1,
-        "fields": {
-            "password": "pbkdf2_sha256$600000$RnD8sQy6HZ0nD1gchhH75O$Pgxmn5Vvk9g3gGPeNbVdXVptIaSVZ4TcGWHSL9YSWdY=",
-            "last_login": "2024-05-03T22:11:18.186Z",
-            "is_superuser": true,
-            "full_name": "MemoFlash",
-            "email": "memoflash@correo.com",
-            "is_staff": true,
-            "is_active": true,
-            "groups": [],
-            "user_permissions": []
-        }
-    },
-    {
-        "model": "memo_cards.topic",
-        "pk": 1,
-        "fields": {
-            "user": 1,
-            "name": "Word Families",
-            "enable": true,
-            "is_private": true
-        }
+{
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$CPor3bptLvxWPXzU7oJ7Hz$iO9OdCk5V873YikX6AfG+qfS4/GQXfgtmo6m1RNiXiA=",
+        "last_login": null,
+        "is_superuser": true,
+        "full_name": "Rollacard",
+        "email": "rollacard@correo.com",
+        "is_staff": true,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
     }
+},
+{
+    "model": "memo_cards.topic",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "name": "Word Families",
+        "enable": true,
+        "is_private": true
+    }
+}
 ]
