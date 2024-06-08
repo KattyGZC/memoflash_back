@@ -170,3 +170,6 @@ cython_debug/
 *.log
 *%3Azone.Identifier
 *Zone.Identifier
+*.db
+*.sqlite*
+/staticfiles/
