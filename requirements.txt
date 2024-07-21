@@ -18,4 +18,4 @@ tzdata==2024.1
 urllib3==2.2.1
 django-storages
 google-cloud-storage
-
+django-environ
