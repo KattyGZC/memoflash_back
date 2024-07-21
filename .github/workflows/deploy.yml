@@ -84,3 +84,4 @@ jobs:
           GCP_USR: ${{ secrets.GCP_USR }}
         run: |
           gcloud compute ssh $GCP_USR@$GCP_VM_NAME --zone $GCP_ZONE --command "$GCP_MAIN_DIR/memoflash_back/start.sh $GCP_MAIN_DIR/memoflash_back/.env"
+
