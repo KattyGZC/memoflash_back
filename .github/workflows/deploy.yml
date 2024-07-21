@@ -40,7 +40,7 @@ jobs:
           echo "$GCP_SSH_PUBLIC_KEY" > ~/.ssh/google_compute_engine.pub
           chmod 600 ~/.ssh/google_compute_engine
           chmod 644 ~/.ssh/google_compute_engine.pub
-          ssh-keyscan -t rsa 34.171.3.249 >> ~/.ssh/known_hosts
+          ssh-keyscan -t rsa 34.170.56.16 >> ~/.ssh/known_hosts
 
       - name: Authenticate with GCP
         env:
