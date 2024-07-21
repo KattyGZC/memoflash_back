@@ -138,7 +138,7 @@ if os.getenv('DJANGO_ENVIRONMENT') == 'production':
     # Configuraciones para Google Cloud Storage
     STATICFILES_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
     GS_BUCKET_NAME = 'rollacard-bucket'
-    GS_DEFAULT_ACL = 'publicRead'
+    #GS_DEFAULT_ACL = 'publicRead'
     DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'  # Optional: For media files
 
 # Default primary key field type
